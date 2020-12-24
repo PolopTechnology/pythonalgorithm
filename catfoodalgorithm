@@ -1,0 +1,14 @@
+blue = ["Eggs", "Blueberries", "Salmon", "Chicken", "Fish", "Flaxseed", "Taurine", "Carrots"]
+
+chow = "Chicken By-Product Meal, Cassava Root Flour, Soy Flour, Pea Starch, Chicken, Pea Protein, Beef Fat Naturally Preserved With Mixed-Tocopherols, Lentil Flour, Canola Meal, Natural Liver Flavor, Dried Yeast, Phosphoric Acid, Salt, Calcium Carbonate, Choline Chloride, Minerals [Zinc Sulfate, Ferrous Sulfate, Manganese Sulfate, Copper Sulfate, Calcium Iodate, Sodium Selenite], Potassium Chloride, Taurine, Vitamins [Vitamin E Supplement, Niacin (Vitamin B-3), Vitamin A Supplement, Calcium Pantothenate (Vitamin B-5), Thiamine Mononitrate (Vitamin B-1), Riboflavin Supplement (Vitamin B-2), Vitamin B-12 Supplement, Pyridoxine Hydrochloride (Vitamin B-6), Folic Acid (Vitamin B-9), Vitamin D-3 Supplement, Biotin (Vitamin B-7), Menadione Sodium Bisulfite Complex (Vitamin K)]. A-4506."
+
+
+equals = 0
+     
+for x in blue:
+    if x in chow:
+        print(x + " is in chow")
+        equals += 1
+
+print("mutual ingridients")
+print(equals)
